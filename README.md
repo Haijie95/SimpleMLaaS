@@ -1,3 +1,23 @@
+# Welcome to my Simple App of MLaaS
+
+This is my take on MLaaS!
+This app is done by deploying a Machine Learning Model as a Rest API using Flask.
+The result from the prediction will be display on a React frontend.
+
+Future Plans:
+
+1. To integrate DB(Redis, MongoDB, SQL) for retrieval of data
+2. Using data from different DB to train model and deploy the model
+3. Use a different backend such as SpringBoot
+4. Using a different frontend such as Angular
+
+## Links to Learn / Credits
+
+1. [How to deploy Machine Learning model as a Rest API?](https://www.youtube.com/watch?v=AZfJ8buL5II&list=PLU6NNgLin9kpcUiY0ZBWrWd7xeuJJkyOB&index=3)
+2. [Build and Deploy a Full Stack AI SaaS](https://www.youtube.com/watch?v=bZFedu-0emE)
+
+## Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
