@@ -4,6 +4,12 @@ This is my take on MLaaS!
 This app is done by deploying a Machine Learning Model as a Rest API using Flask.
 The result from the prediction will be display on a React frontend.
 
+Take a look at the **demo** below.
+It is automated and recorded using playwright.
+<video width="640" height="360" controls>
+  <source src="demo/Demo.webm" type="video/mp4">
+</video>
+
 Future Plans:
 
 1. To integrate DB(Redis, MongoDB, SQL) for retrieval of data
