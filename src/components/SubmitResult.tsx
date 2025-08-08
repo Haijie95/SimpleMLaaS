@@ -40,33 +40,37 @@ const SubmitResult = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-        <FormField
-          control={form.control}
-          name="budget"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>
-                <h2 className="text-left" style={{ color: "white" }}>
-                  Enter your Budget below:
-                </h2>
-              </FormLabel>
-              <FormControl>
-                <Input placeholder="Input Budget..." {...field} type="number" />
-              </FormControl>
-              <FormDescription>This is for budget prediction!</FormDescription>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
-        <Button
-          className="bg-gradient-to-r from-rose-100 to-teal-100"
-          style={{ color: "black" }}
-          type="submit"
-        >
-          Predict!
-        </Button>
-      </form>
+        <div className="min-h-screen bg-gray-50 py-8">
+            <div className="max-w-md mx-auto px-4">
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+                    <div className="bg-white rounded-lg shadow-md p-6">
+                        <FormField
+                        control={form.control}
+                        name="budget"
+                        render={({ field }) => (
+                        <FormItem>
+                            <FormLabel>
+                                <h1 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+                                  Enter Budget Below:
+                                </h1>
+                            </FormLabel>
+                            <FormControl>
+                                <Input placeholder="Input Budget..." {...field} type="number" />
+                            </FormControl>
+                            <FormDescription>This is for budget prediction!</FormDescription>
+                            <FormMessage />
+                        </FormItem>
+                        )}
+                        />
+                        <Button className="bg-gradient-to-r from-rose-100 to-teal-100"
+                          style={{ color: "black" }}
+                          type="submit">
+                          Predict!
+                        </Button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </Form>
   );
 };

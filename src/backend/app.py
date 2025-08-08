@@ -47,4 +47,4 @@ api.add_resource(prediction,'/prediction/<int:budget>')
 
 
 if __name__ == '__main__':
-    app.run(debug=True)        
+    app.run(debug=True)
