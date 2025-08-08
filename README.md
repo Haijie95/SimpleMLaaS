@@ -7,7 +7,8 @@ The result from the prediction will be display on a React frontend.
 Take a look at the **demo** below.
 It is automated and recorded using playwright.
 <video width="640" height="360" controls>
-  <source src="demo/Demo.webm" type="video/mp4">
+  <source src="demo/Demo.webm" type="video/webm">
+  If video can't be video, do take a look at the demo folder. Thank you!
 </video>
 
 Future Plans:
